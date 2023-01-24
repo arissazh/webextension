@@ -1,6 +1,4 @@
-# webextension
-
-Moomin Summoner
+# Moomin Summoner
 
 This is a "Moomin Summoner" Chrome web extension that creates blocks with random Moomin character images! 
 
