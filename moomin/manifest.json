@@ -5,7 +5,7 @@
     "version": "1.0",
     "action": {
         "default_popup": "popup/popup.html",
-        "default_icon": "images/moomintroll.png"
+        "default_icon": "/moomintroll.png"
     },
     "content_scripts": [
         {
@@ -13,10 +13,10 @@
                 "*://*/*"
             ],
             "js": [
-                "content-scripts/block.js"
+                "content-scripts/moomin.js"
             ],
             "css": [
-                "content-scripts/block.css"
+                "content-scripts/moomin.css"
             ]
         }
     ]

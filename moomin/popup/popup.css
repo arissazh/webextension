@@ -1,13 +1,19 @@
 body {
+  font-family: 'Gloria Hallelujah', cursive;
   width: max-content;
   margin: 0;
   font-size: 1rem;
   user-select: none;
 }
 
+label {
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
 .popup-title {
+  font-family: 'Oswald', sans-serif;
   font-weight: 900;
-  background-color: rgb(208, 58, 138);
+  background-color: rgb(111, 150, 219);
   color: white;
   width: 100%;
   padding: 5px;
@@ -30,4 +36,5 @@ body {
 
 button {
   width: 100%;
+  font-family: 'Gloria Hallelujah', cursive;
 }
