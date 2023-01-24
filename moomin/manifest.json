@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "moomin summoner!",
+    "description": "add a moomin to your page!",
+    "version": "1.0",
+    "action": {
+        "default_popup": "popup/popup.html",
+        "default_icon": "images/moomintroll.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "content-scripts/block.js"
+            ],
+            "css": [
+                "content-scripts/block.css"
+            ]
+        }
+    ]
+}
